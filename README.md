@@ -1,6 +1,6 @@
-# Node-Qt
+!!Node-Qt
 
-Node-Qt provides native bindings to the [Qt library](http://developer.qt.nokia.com/doc/qt-4.8/) as a [Node.js addon](http://nodejs.org/docs/latest/api/addons.html). The focus is on graphics and audio bindings; there is no need to duplicate the functionality of the Node API and its modules.
+Node-Qt*provides native bindings to the [Qt library](http://developer.qt.nokia.com/doc/qt-4.8/) as a [Node.js addon](http://nodejs.org/docs/latest/api/addons.html). The focus is on graphics and audio bindings; there is no need to duplicate the functionality of the Node API and its modules.
 
 We try to follow [Qt's API](http://developer.qt.nokia.com/doc/qt-4.8/) as closely as possible, but sometimes quirks are inevitable (for example, virtual methods that handle events are translated into callback setters). See the header files in `src/` for a list of available bindings, and comments in `.cc` files for possible API differences. 
 
@@ -163,3 +163,4 @@ is missing?
 _"Segmentation fault"_
 
 Tough luck :) Did you forget to `new` a wrapped object?
+ 
